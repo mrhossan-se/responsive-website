@@ -1,0 +1,1139 @@
+
+body{margin: 0; padding: 0; font-family: 'Montserrat', sans-serif;}
+h1,h2,h3,h4,h5,h6{font-family: 'Roboto', sans-serif; font-weight: 700;}
+
+#top-section{
+    width: 100%;
+    height: 200px;
+    margin-bottom: 5px;
+}
+#header-sec-marquee{
+    background-image: linear-gradient(black, yellow,gray);
+}
+.marquee-images{
+    width: 200px;
+    height: 200px;
+    border-bottom: 1px solid white;    
+}
+section{
+    padding: 70px 0px;
+    /* margin-top: -68px; */
+}
+
+#topbarMain{
+    background: #f5f5f5;
+}
+.container{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0px auto;
+}
+#topbarWrapper{
+    overflow: hidden;  
+}
+
+.email{
+    padding: 15px 10px ;
+    width: 725px;
+    float: left;
+}
+.phone{ 
+    padding: 15px 10px;
+     width: 220px;
+     float: left;
+}
+.social{
+width: 155px;
+float: left;
+transition: .3s;
+}
+.social i:hover{
+    color: #ff5200;
+}
+.social a{
+    display: block;
+    float: left;
+    padding: 15px;
+    border-right: 1px solid #ddd;
+    color: #2b2b2b;
+    font-size: 25px;
+}
+.social a:first-child{
+    border-left: 1px solid #ddd;
+}
+.phone i,.email i{
+    color: #ff5200;
+    margin-right: 3px;
+}
+
+
+.logo {
+    float: left;
+    font-size: 37px;
+    width: 150px;
+    padding-top: 10px;
+    
+}
+.menuWrapper{
+     
+    /* width: 900px;
+    margin-left: 230px; */
+   }
+  .menuWrapper {
+   
+    float: right;
+    width: 740px;
+    background: #fff;
+     
+     
+}
+
+
+  #search i {
+        font-size: 25px;   
+}
+
+   .menu{
+      padding: 8px; 
+       margin: 0 auto;
+       min-height: 52px; 
+       width: 950px;
+       list-style: none;
+    }
+       
+  .menu li{
+      float: left;
+      position: relative;
+  }
+ 
+  .menu li a{
+      text-decoration: none; 
+       
+       padding: 15px 20px;
+      color: #000;
+      display: block;
+      text-transform: uppercase;
+      font-size: 18px;
+     
+  }  
+   .menu li a:hover{
+      background-color: orange;
+      color: #000;
+  } 
+
+  /* drop down menu */
+  .menu li ul{
+      list-style-type: none;
+       padding: 0;
+       position: absolute;
+       left: -99999px;
+       width: 120px;
+    } 
+    .menu li ul li {
+        float: none;
+        width: 120px;
+        background: #d3cece;
+        color: #262626;
+        position: relative;
+    }
+
+  .menu li:hover ul{
+      left: 0px;
+    }
+
+/* sub dropdown menu */
+  .menu li ul li ul{
+    position: absolute;
+     top: -99999px;
+  }
+
+  .menu li ul li:hover ul{
+     top: 0px;
+  } 
+  .menu li ul li ul li{
+    left: 120px;
+  }
+
+
+
+/* home slider section */
+#homeSliderSection{
+    background:linear-gradient(#00000082,#00000082), url("images/images/IMG_0155-2.JPG");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 405px;
+    margin: 0px 0px;
+    overflow: hidden;
+    padding: 60px 0px;
+    
+}
+
+#sliderContent{
+    width: 682px;
+	margin-top: -110px;
+}
+#sliderContent h1{
+    color: rgb(211, 163, 75);
+    font-size: 50px;
+    padding-top: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-top: 30px;
+    float: left;
+}#sliderContent h3{
+    color: white;
+    font-weight: bolder;
+    margin: 20px 0px 30px;
+    width: 490px;
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+#sliderContent p{
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin: 20px 0px 30px;
+    line-height: 25px;
+}
+.pappaBtn{
+    color: black;
+    background-color: gold;
+    border: 2px solid red;
+    border-radius: 3px;
+    padding: 5px;
+    margin: 8px 0px 7px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.pappaBtn:hover{
+    color: white;
+    background-color:green;
+    border: 2px solid white;
+    font-weight: 200;
+    transition: 0.5s;
+}
+.span{
+    color: white;
+}
+.span1{
+    color: goldenrod;
+}
+#silderNav{
+    width: 90px;
+    padding: 25px 0px;
+    margin: auto;
+}
+#silderNav span{
+    width: 10px;
+    height: 10px;
+    border: 5px solid white;
+    border-radius: 100%;
+    float: left;
+    display: block;
+    margin: 5px 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+#silderNav span:last-child{
+    background-color: #ec7e4b;
+    border-color: #ff5200
+}
+#services{
+    background-color: #f4f5f7;
+}
+.serviceWrapper {
+    display: block;
+    overflow: hidden;
+}
+
+.singleBox {
+    width: 225px;
+    background: #fff;
+    float: left;
+    margin-right: 24px;
+    padding: 20px;
+    border-radius: 5px;
+}
+.singleBox:last-child{
+    margin-right: 0px;
+}
+.singleBox h1{
+    color: rgb(214, 65, 28);
+    text-align: center;
+    padding: 10px 20px;
+    font-size: 21px;
+    text-transform: uppercase;
+}
+.singleBox .aboxIcone {
+    text-align: center;
+    font-weight: 700px;
+    font-size: 50px;
+    padding: 10px;
+}
+.singleBox p{
+    font-size: 15px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 300;
+}
+.singleBox a{
+    color: orange;
+    font-size: 13px;
+    text-decoration: none;
+    padding: 5px;
+    cursor: pointer;
+}
+.singleBox a:hover{
+    color: red
+}
+.aboxLink{
+    text-align: center;
+    padding-bottom: 20px;
+}
+.singleBox:hover a {
+    color: black;
+    background-color: white;
+    border-radius: 10px;
+}
+.singleBox:hover {
+    background-color: rgba(243, 44, 9, 0.986);
+
+}
+.singleBox:hover .aboxIcone {
+    color: white;
+
+}
+
+ 
+.singleBox:nth-child(even){
+    background-color: goldenrod
+}
+.singleBox:nth-child(2)a{
+    color: black;
+    
+}
+.singleBox:hover h1 {
+    color: black;
+}
+.fa-long-arrow-right{
+    padding-left: 5px;
+}
+.singleBox:nth-child(even){
+    color: #fff;
+}
+#workTeamsWrapper{
+    overflow: none;
+    display: block;
+    overflow: hidden;
+    height: 400px;
+}
+.workTeamImg{
+    float: left;
+    overflow: hidden;
+    display: block;
+    width: 50%; 
+}
+.workTeamImg img{
+    width: 100%; 
+    overflow: hidden;
+}
+.worksTeamsContent{
+    overflow: hidden;    
+    padding-left: 40px; 
+}
+.teamsDesc{
+
+}
+
+.teamsDesc h1 {
+    font-size: 30px;
+    transform: uppercase;
+    text-transform: uppercase;
+    line-height: 25px;
+    
+}
+.teamsDesc p{
+    text-align: justify;
+    font-size: 14px;
+    padding-bottom: 15px;
+    font-family: 'Montserrat';
+    font-weight: 100;
+    color: slategrey;
+}
+.teamsLinkWrapper{
+    float: left;
+    overflow: hidden;
+    display: block;
+    
+}
+gi
+ .teamsLinkPara p{ line-height: 20px;
+    font-size: 15px;
+    padding-right: 5px;
+    float: left;
+    color: salmon;
+}
+.teamsLinkPara{
+   width: 250px;
+   float: left;
+   display: block;
+}
+  .workTeamButton {
+    background-color: orange;
+    padding: 3px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 200
+}
+ .workTeamButton:hover {
+    background-color:black ;
+    color: white;
+}
+.fa-angle-right{
+    padding-right:5px
+}
+#whyChosUs{
+    background:linear-gradient(rgb(125 107 107 / 54%),#101010), url("images/images/IMG_0155-2.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#iConWrepper{
+    display: block;
+    overflow: hidden;
+    padding: 0px 50px;
+  
+}
+.singleIcons{
+ float: left;
+ margin: 10px 27px;
+ padding: 10px;
+
+}
+.singleIcons .singleIcon{
+    font-size: 27px;
+    color: rgb(252, 248, 248);
+    text-align: center;
+   }
+   .singleIcons h2{
+    font-size: 25px;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+   }
+   .singleIcons p{
+    font-size: 13px;
+    color: #fff;
+    margin: 0px auto;
+    text-transform: uppercase;
+   }
+    
+#moreFormWrepper{
+   overflow: hidden;
+}
+.moreForm{
+    text-align: center;
+    width: 60%;
+    margin: 0px auto;
+    overflow: hidden;
+       }
+ .moreForm p{
+        font-size: 14px;
+        font-family: -webkit-pictograph;
+       }
+.moreContentWrepper{
+   display: flex;
+   overflow: hidden;
+}
+.moreContentImg{
+    text-align: center;
+}
+.moreContent{
+    
+}
+.moreImgDes {
+    /* float: left; */
+     
+    padding: 0px 20px;
+    
+}
+.moreContentImg img{
+    width: 250px;
+    height: 250px;
+   
+    
+}
+.moreContent h3{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.moreContent p{
+    font-size: 14px;
+    font-family: -webkit-pictograph;
+    text-align: justify;
+}
+.underline{
+    border-bottom: 4px solid salmon;
+    width: 80px;
+    height: 0px;
+    margin: 0px auto;
+}
+.moreFormbackground{
+    background-color: rgb(156, 153, 153);
+    
+}
+
+
+#pricePlanWrepeer{
+    overflow: hidden;
+   
+    }
+    .priceCard{
+        width: 320px;
+        float: left;
+        overflow: hidden;
+        border: 1px solid #ece6e6;
+        padding: 30px 10px;
+        display: block;
+        margin: 19px;
+        border-radius: 5px;
+        box-shadow: 0px 5px 7px 7px #e2f2f7;
+  }
+  
+  .priceCard h2{
+    font-size: 16px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.priceCard h1{
+    font-size: 32px;
+    padding-left: 20px;
+    margin-top: -10px;
+}
+  .priceCard span{
+    font-size: 15px;
+    color:#f13c14;
+}
+.priceCard ul{
+    list-style: none;
+
+}
+.priceCard ul li{
+    font-size: 14px;
+    line-height: 4;
+    margin-left: -15px;
+    font-family: -webkit-pictograph;
+    margin-top: -20px;
+    
+}
+.priceCard button{
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    border: 1px solid gray;
+    border-radius: 15px;
+    background-color: #f13c14;
+    color: #fff;
+    margin: 0px 0px 20px 24px;
+}
+.priceCard button:hover{
+    background-color: #ddd;
+    color: black;
+
+}
+   .priceCard i.fa.fa-check {
+        margin-right: 5px;
+        color: #f13c14;
+    }
+    #ideas{
+        overflow: hidden;
+        max-height: 400px;
+    }
+     .ideaLeftImg{
+         background-size: cover;
+        background-repeat: no-repeat;
+        float: left;
+        width: 50%;  
+        overflow: hidden;
+        left: 0;
+        top: 0;
+    }
+    .ideaLeftImg img{
+       width: 100%;  
+       overflow: hidden;
+       
+   }
+     
+    .ideaRightWrepeer {
+        width: 50%;
+        float: right;
+        padding: 20px 0px;
+        overflow: hidden;
+        background-color: #2b2b2b;
+        color: #fff;
+    }
+    .ideaTopContent{
+        padding: 20px 0px 0px 70px;
+        overflow: hidden;
+    }
+    .ideaTopContent h1 {
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+    .ideaTopContent p {
+        font-size: 14px;
+        font-family: system-ui;
+    }
+    .ideaMainContent{
+        padding: 20px 0px 0px 50px;
+        overflow: hidden;
+        float: left;
+    }
+    .ideaBox{
+        width: 270px;
+        float: left;
+        padding: 10px 20px;
+    
+    }
+    .ideaIcon i{
+        width: 70px;
+        float: left;
+        overflow: hidden;
+        color: red;
+        padding-top: 30px;
+        font-size: 35px;
+        text-align: center;
+    }
+    .ideaContent{
+        width: 200px;
+        float: right;
+        padding-top: 0px;
+    }
+    .ideaContent h2{
+        font-size: 20px;
+        text-transform: uppercase;
+    }
+    .ideaContent h2:hover{
+        color: red;
+    }
+    .ideaContent p{
+        font-size: 14px;
+        font-family: system-ui;
+    }
+.teamPerson{
+    overflow: hidden;
+}
+.teamSinglePerson{
+    width: 265px;
+    float: left;
+    overflow: hidden;
+    margin: 50px 10px;
+}
+.teamPersonImg{
+    position: relative;
+    overflow: hidden;
+    
+}
+.teamPersonImg img{
+    width: 265px;
+    height: 270px;
+  transition: 0.5s;
+}
+
+.teamPersonContent {
+  text-align: center;
+}
+.teamPersonContent h2{
+    text-transform: uppercase;
+    font-size: 22px;
+    font-family: fantasy;
+  }
+  .teamPersonContent p{
+    font-size: 14px;
+    font-family: emoji;
+    font-weight: 300;
+    margin-top: -5px;
+  }
+  
+  .teamButton button{
+    font-size: unset;
+    background: #675e5e;;
+    color: #fff;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 5px 5px;
+  }
+  .teamButton button:hover{
+    background-color: goldenrod;
+    color: black;
+    border-color: red;
+  }
+  .teamButton{
+    place-items: center;
+    display: grid;
+  }
+  .socialIcons {
+    position: absolute;
+    bottom: 120px;
+    width: 100%;
+    text-align: center;
+    left: 40%;
+    transform: translateX(-50px);
+}
+.socialIcons a {
+    color: #fff;
+    background: red;
+    display: block;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    float: left;
+    display: grid;
+    place-items: center;
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 5px;
+    margin: 5px;
+    transition: .5s;
+}
+.socialIcons a:first-child{
+    background: #3b5998;
+    opacity: 0;
+    transition: 0.9s;
+}
+.socialIcons a:nth-child(2){
+    background: #0077B5;
+    opacity: 0;
+    transition: 0.6s;
+}
+.socialIcons a:nth-child(3){
+    background: #1DA1F2;
+    opacity: 0;
+    transition: 0.4s;
+}
+.socialIcons a:nth-child(4){
+    background: #4285F4;
+    opacity: 0;
+    transition: 0.1s;
+}
+.socialIcons a:hover{
+    background: #fff;
+    color: #333;
+}
+.teamSinglePerson:hover .socialIcons a:first-child{
+   transform: translateY(50px);
+    opacity: 1;
+}
+.teamSinglePerson:hover .socialIcons a:nth-child(2){
+    transform: translateY(50px);
+     opacity: 1;
+ }
+ .teamSinglePerson:hover .socialIcons a:nth-child(3){
+    transform: translateY(50px);
+     opacity: 1;
+ }
+ .teamSinglePerson:hover .socialIcons a:nth-child(4){
+    transform: translateY(50px);
+     opacity: 1;
+ }
+ .teamSinglePerson:hover .teamPersonImg img{
+     transform: scale(1.1);
+ }
+ .teamSinglePerson:hover{cursor: pointer}
+ .projectsWrepeer{
+     overflow: hidden;
+ }
+/**/
+#projects{
+    background: #f5f6f6;
+    max-height: 850px;
+}
+.projectsWrepeer{
+    overflow: hidden;
+    column-count: 3;
+    margin-top: 50px;
+    margin-left: 13px;
+}
+
+
+.singleProject {
+     width: 350px;
+    height: 300px; 
+    position: relative;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: left;
+    overflow: hidden;
+}
+.singleProject :last-child {
+    margin-right: 0px;
+}
+.singleProject img{
+    width: 100%;
+     
+}
+.projectInfo{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: blanchedalmond;
+    padding: 20px 30px;
+    background: linear-gradient(to top, rgb(204, 196, 196), transparent 150px);
+    transition: 0.3s;
+    transition-delay: 0.1s;
+    
+}
+.projectsMeta{
+    width: 290px;
+    overflow: hidden;
+    
+}
+.projectsMeta h3 {
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+}
+.projectsMeta a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 900;
+    display: block;
+    margin-bottom: 10px;
+}
+a#leanrMoreBtn {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: 500;
+    transform: translateX(-150px);
+    display:block;
+     visibility: hidden;
+}
+a#leanrMoreBtn i{
+     font-size: 13px;
+    margin-left: 10px;
+
+}
+.singleProject :hover.projectInfo {
+   
+   padding: 60px 30px !important;
+   background: linear-gradient(to top, rgb(180, 175, 175), transparent 200px)!important;
+  
+}
+
+.singleProject:hover a#leanrMoreBtn {
+  transform: translateY(0px) !important; transition: 0.5s;
+  transition-delay: 0.3s;
+  transition-timing-function: cubic-bezier(0, 0.29, 0, 0.4); 
+  visibility: visible;
+}
+.newsWrepper {
+    margin-top: 50px;
+    overflow: hidden;
+}
+.singleNews {
+    float: left;
+    overflow: hidden;
+    width: 350px;
+ 
+    margin: 14px;
+    border: 1px solid #98cab3;
+}
+.newsImg {
+    overflow: hidden;
+}
+.newsImg img {
+    width: 100%;
+    height: 300px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.newsImg:hover img {
+     transform:scale(1.2)
+}
+
+.newsMeta {
+    margin-top: 12px;
+    padding: 20px;
+    overflow: hidden;
+    display: block;
+}
+
+.newsCategory a{
+    font-size: 14px;
+    font-family: -webkit-pictograph;
+    cursor: pointer;
+    margin: 0px 10px;
+    text-decoration: none;
+    color: gray;
+   
+    
+}
+.newsCategory a:hover{
+    color: #fb5200;
+}
+.newsCategory{
+    margin-bottom: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.newsCategory:after {
+        content: "";
+        border-bottom: 4px solid #fb5200;
+        position: absolute;
+        width: 20px;
+        left: 88px;
+        top: 8px;
+}
+.newsTitle p {
+    font-size: 15px;
+    font-family: -webkit-pictograph;
+    overflow: none;
+}
+
+.newsTitle h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+a#readMore {
+    text-decoration: none;
+    color: #FB5200;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+}
+a#readMore:hover {
+    color:yellowgreen;
+}
+
+.newsTitle a#readMore i {
+    margin-left: 5px;
+    color: yellowgreen;
+    font-size: 13px;
+}
+
+.newsTitle h2 a {
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    cursor: pointer;
+}
+.newsTitle h2 a:hover{
+    color: #fb5200;
+}
+#Footer {
+    background: #050508;
+    padding-top: 100px;
+}
+
+.footerWrepper {
+    overflow: hidden;
+    color: #fff;
+    margin: 40px 0px;
+}
+.fBox{
+    
+    float: left;
+    width: 255px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.fBox h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: system-ui;
+}
+
+.fBox p {
+    font-size: 14px;
+    font-family: 'FontAwesome';
+}
+
+.footerSocialIcon {
+    overflow: hidden;
+}
+
+ .footerSocialIcon a {
+    color: lightblue;
+    padding-right: 15px;
+    font-size: 18px;
+}
+
+.officeAddress {
+    display: flex;
+    font-size: 14px;
+    float: none;
+}
+
+.oAddress {
+    padding-right: 10px;
+    font-size: 13px;
+    line-height: 22px;
+    word-spacing: 2px;
+}
+
+i.fa.fa-address-card {color: #f25200;font-size: 16px; margin-top: 8px;}
+i.fa.fa-phone-square {  color: #f25200; font-size: 20px; margin-top: 18px;}
+i.fa.fa-envelope {color: #f25200;  color: #f25200; font-size: 18px; margin-top: 18px;}
+
+.fBox ul {
+    list-style: none;
+}
+
+.fBox ul li {
+    line-height: 45px;
+    margin-left: -35px;
+    font-size: 13px;
+}
+.rPost {
+    overflow: hidden;
+    background: #313131;
+    width: 47px;
+    height: 65px;
+    text-align: center;
+    font-size: 13px;
+    border-radius: 2px;
+    padding: 2px;
+    margin: 0px 0px 10px 5px;
+    display: block;
+    color: #fff;
+}
+.rPostDate {
+    font-size: 24px;
+    font-weight: 700;
+    color: gold;
+}
+.rPostWrepper {top: 0;float: right;margin-top: -88px;padding-bottom: 25px;font-size: 13px;}
+.rPostWrepper i.fa.fa-user {padding: 0px 5px 0px 0px;color: yellowgreen;}
+.rPostWrepper i.fa.fa-comments { padding: 0px 5px 0px 5px; color: seagreen;}
+
+#copyrightContainer {
+    overflow: hidden;
+    border-top: 1px solid #443f3f;
+    background: #1b1a1a;
+}
+/* bottom is copy right */
+.copyrightName {
+    float: left;
+    
+    display: flex;
+     
+}
+
+.copyrightName p {
+    color: lightgrey;
+    font-size: 10px;
+    font-weight: 100;
+    padding: 17px 100px;
+}
+
+.copyrightMenu {
+    overflow: hidden;
+    float: right;
+    margin: 0px auto;
+}
+
+.copyrightMenu ul {
+    display: flex;
+    list-style: none;
+    margin-left: 300px;
+}
+
+.copyrightMenu ul li {
+    text-decoration: none;
+    padding: 10px 25px;
+}
+.copyrightMenu ul li a {
+    text-decoration: none;
+    color: lightgray;
+    font-size: 12px;
+    cursor: pointer;
+}
+.copyrightMenu ul li :last-child {
+    padding-right: 0px;
+}
+.fBox ul li a {
+    text-decoration: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+div#subscribeWrapper {
+    overflow: hidden;
+    background: #ff5200;
+    border-radius: 3px
+}
+
+.subsBoxSingle {
+    width: 316px;
+    float: left;
+    padding: 20px 20px;
+    margin: 0px auto;
+    padding-bottom: 35px;
+}
+.subsBoxSingle:first-child {
+   padding-left: 90px;
+}
+.subsBoxSingle h3 {
+    font-size: 25px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: monospace;
+}
+.subsBoxSingle p {
+    color: #fff;
+    font-size: 14px;
+}
+.inputBoxes {
+    position: relative;
+}
+input#serSeacch {
+    width:80%;
+    padding: 15px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    font-family: oswald;
+    border: none;
+    letter-spacing: 1px;
+}
+input#serSubmit {
+    padding: 16px;
+    width: 110px;
+    border-radius: 50px;
+    position: absolute;
+    background: black;
+    color: #fff;
+    right: 0px;
+    border:none;
+    top: 0;
+    font-size: 14px;
+}
+.subSocialIcon a {
+    color: #fff;
+    place-items: center;
+    border: 1px solid;
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    padding: 0px;
+    border-radius: 50px;
+    display: grid;
+    float: left;
+}
+section#subscribe {
+    position: relative;
+    margin-bottom: -170px;
+}
+
+.subSearch {
+    overflow: hidden;
+    position: relative;
+}
